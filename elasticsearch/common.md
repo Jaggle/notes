@@ -8,7 +8,7 @@
 这个不知翻译成“路由”到底好不好，因此，还是用routing来称呼吧。
 
 下面简单写一些关于routing的说明，根据源文档翻译过来的，
-原文链接: (routing)['https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-routing-field.html'] 每一个指定了routing的文档会被指定到具体的分片中，根据以下规则指定文档所在的分片：
+原文链接: (routing)[https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-routing-field.html] 每一个指定了routing的文档会被指定到具体的分片中，根据以下规则指定文档所在的分片：
 
 ```
 shard_num = hash(_routing) % num_primary_shards)
@@ -52,4 +52,4 @@ PUT my_index2/my_type/1
 ```
 
 
-我们并不能保证routing的唯一性，这个需要客户端来避免相同routing的发生。
+我们并不能保证routing的唯一性，这个需要客户端来避免相同routing的发生
