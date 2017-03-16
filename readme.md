@@ -21,4 +21,4 @@
 
 ## git
 
-1. [添加指定行到暂存区](https://github.com/Jaggle/notes/blob/master/stage-specific-lines.md)
+1. [添加指定行到暂存区](https://github.com/Jaggle/notes/blob/master/git/stage-specific-lines.md)
